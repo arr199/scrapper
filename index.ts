@@ -1,30 +1,5 @@
 import { chromium , devices } from "playwright"
 
-
-// ( async () => {
-//     const twitch = 'https://www.twitch.tv'
-//     const browser = await chromium.launch()
-//     const context = await browser.newContext(devices["Desktop Firefox"])
-//     const page = await  context.newPage()
-//     await page.goto(twitch)
-//     await page.screenshot({ path : "./pictures/1before.png" })
-//     // const content  = await page.content()
-//     const searchBar = await page.getByLabel("Search Input")
-//     await searchBar.fill("Ibai")
-//     await searchBar.press("Enter")
-
-//     // await page.waitForTimeout(5000)
-//     const channels = await page.getByText("Channels" , { exact : true })
-//     await searchBar.fill("This is a test")
-
-//     await channels.waitFor({ state : "visible" })
-//     await page.screenshot({ path : "./pictures/2after.png" })
-//     await browser.close()
-  
-  
-   
-// } )()
-
 // Linkedin Card Schema
 const cardSchema = {
     card : ".base-card" ,
